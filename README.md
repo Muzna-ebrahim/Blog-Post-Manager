@@ -26,7 +26,7 @@ Save Files: Ensure you have index.html, index.js, style.css, and a db.json file 
 Create db.json: In your project's root directory, create a file named db.json and paste the following content into it. This will be your initial blog post data.
 
 ## JSON
-
+```bash
 {
   "Posts": [
     {
@@ -34,7 +34,7 @@ Create db.json: In your project's root directory, create a file named db.json an
       "title": "My First Ever Blog Post",
       "content": "Welcome to my blog!",
       "author": "Amelie",
-      "avatar": "https://imgs.search.brave.com/f-qoUm-0ms8P2kds4jKqB7byEwuCtK-AbB7RnC3ScgA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by90/YWJsZXQtd2hpY2gt/eW91LWNhbi1yZWFk/LWJsb2dfMTEzNC0y/MjYuanBnP3NlbXQ9/YWlzX2l0ZW1zX2Jv/b3N0ZWQmdw09NzQw"
+      "avatar": "https://imgs.search.brave.com/f-qoUm-0ms8P2kds4jKqB7byEwuCtK-AbB7RnC3ScgA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by90/YWJsZXQtd2hpY2gt/eW91LWNhbi1yZWFk/LWJsb2dfMTEzNC0y/MjYuanBnP3NlbXQ9/YWlzX2l0ZW1zX2Jv/b3N0ZWQmdz03NDA"
     },
     {
       "id": 2,
@@ -52,6 +52,7 @@ Create db.json: In your project's root directory, create a file named db.json an
     }
   ]
 }
+```
 2. Install JSON Server
 Open your terminal or command prompt.
 
