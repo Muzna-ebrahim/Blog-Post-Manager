@@ -89,3 +89,6 @@ Feel free to explore the code, suggest improvements, or submit pull requests. An
 ## LICENSE:
 This project is open-source and available under the MIT License.
 
+## AUTHOR :
+This project was done by Muzna Ebrahim Mohamed.
+
