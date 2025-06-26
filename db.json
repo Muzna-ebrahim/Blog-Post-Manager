@@ -1,25 +1,39 @@
 {
-  "Posts": [
+  "posts": [
     {
-      "id": 1,
+      "id": "1",
       "title": "My First Ever Blog Post",
       "content": "Welcome to my blog!",
       "author": "Amelie",
       "avatar": "https://imgs.search.brave.com/f-qoUm-0ms8P2kds4jKqB7byEwuCtK-AbB7RnC3ScgA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by90/YWJsZXQtd2hpY2gt/eW91LWNhbi1yZWFk/LWJsb2dfMTEzNC0y/MjYuanBnP3NlbXQ9/YWlzX2l0ZW1zX2Jv/b3N0ZWQmdz03NDA"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Classic Safari Rally",
       "content": "This is the most amazing event and sports- the Classic Safari Rally",
       "author": "Franfurt",
       "avatar": "https://imgs.search.brave.com/ic8xKaJNqupGkBSvMI2nAc5uUpNXdctVecRNwFwU4BU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dHV0aGlsbC51ay9f/bmV4dC9pbWFnZT91/cmw9aHR0cHM6Ly9h/LnN0b3J5Ymxvay5j/b20vZi8zMTQ2NTkv/NTAwMHgzMzMzLzVj/YzdmZGZiMDkvZHNj/Xzc4Mzkud2VicCZ3/PTM4NDAmcT0xMDA"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "chocolate cake",
       "content": "my very first recipe",
       "author": "ash parker",
-      "avatar":"https://imgs.search.brave.com/d2vrA-8X9T6hoXNKZBY64qxlagpThNYbdDYZJXB8sYk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaW1tZWRpYXRl/LmNvLnVrL3Byb2R1/Y3Rpb24vdm9sYXRp/bGUvc2l0ZXMvMzAv/MjAyMC8wOC9yZWNp/cGUtaW1hZ2UtbGVn/YWN5LWlkLTEwNDM0/NTFfMTEtNDcxMzk1/OS5qcGc_cXVhbGl0/eT05MCZyZXNpemU9/NDQwLDQwMA"
+      "avatar": "https://imgs.search.brave.com/d2vrA-8X9T6hoXNKZBY64qxlagpThNYbdDYZJXB8sYk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaW1tZWRpYXRl/LmNvLnVrL3Byb2R1/Y3Rpb24vdm9sYXRp/bGUvc2l0ZXMvMzAv/MjAyMC8wOC9yZWNp/cGUtaW1hZ2UtbGVn/YWN5LWlkLTEwNDM0/NTFfMTEtNDcxMzk1/OS5qcGc_cXVhbGl0/eT05MCZyZXNpemU9/NDQwLDQwMA"
+    },
+    {
+      "id": "db3d",
+      "title": "cfdtuh",
+      "content": "cgfvhhij",
+      "author": "ffyguhk",
+      "avatar": null
+    },
+    {
+      "id": "6796",
+      "title": "cookies",
+      "content": "happy cookie",
+      "author": "henry",
+      "avatar": "https://i.pinimg.com/736x/a8/17/35/a81735734ec48d277987627fe42c7557.jpg"
     }
   ]
 }

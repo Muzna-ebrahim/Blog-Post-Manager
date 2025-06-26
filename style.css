@@ -1,139 +1,160 @@
 /* General Reset & Base Styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
-    padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
 }
 
 h1, h2, h4 {
-    color: #222;
+  color: #222;
 }
 
 /* Layout */
 header {
-    background-color: #7e7f80;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 20px;
+  background-color: #7e7f80;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 footer {
-    text-align: center;
-    margin-top: 40px;
-    color: #666;
+  text-align: center;
+  margin-top: 40px;
+  color: #666;
 }
 
 .layout {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 /* Sidebar */
 #post-lists {
-    flex: 1;
-    min-width: 250px;
-    max-width: 300px;
-    background-color: #fff;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    height: fit-content;
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: fit-content;
 }
 
 .post-item {
-    cursor: pointer;
-    padding: 8px;
-    margin: 5px 0;
-    border-bottom: 1px solid #eee;
-    transition: background-color 0.2s ease;
+  cursor: pointer;
+  padding: 8px;
+  margin: 5px 0;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.2s ease;
+  outline-offset: 2px;
 }
 
-.post-item:hover {
-    background-color: #f0f0f0;
+.post-item:hover,
+.post-item:focus {
+  background-color: #f0f0f0;
+  outline: 2px solid #6ba8d1;
 }
 
 /* Post Details */
 #post-details {
-    flex: 2;
-    background-color: #fff;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  flex: 2;
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.author-avatar {
+  max-width: 150px;
+  border-radius: 8px;
+  margin: 10px 0;
+  display: block;
 }
 
 /* Forms */
-section#Add-Post,
-form#edit-post-form {
-    background-color: #fff;
-    margin-top: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+section#add-post-section,
+section#edit-post-section {
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 label {
-    display: block;
-    margin-top: 10px;
-    font-weight: bold;
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 input[type="text"],
+input[type="url"],
 textarea {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 button {
-    margin-top: 15px;
-    padding: 10px 15px;
-    border: none;
-    background-color: #6ba8d1;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background-color 0.2s ease;
+  margin-top: 15px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #6ba8d1;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
 }
 
-button:hover {
-    background-color: #005fa3;
+button:hover,
+button:focus {
+  background-color: #005fa3;
+  outline: none;
 }
 
 /* Cancel Button Style */
 #cancel-edit {
-    background-color: #888;
-    margin-left: 10px;
+  background-color: #888;
+  margin-left: 10px;
 }
 
-#cancel-edit:hover {
-    background-color: #666;
+#cancel-edit:hover,
+#cancel-edit:focus {
+  background-color: #666;
+  outline: none;
 }
 
 /* Hidden class utility */
 .hidden {
-    display: none;
+  display: none;
+}
+
+/* Placeholder text style */
+.placeholder {
+  font-style: italic;
+  color: #666;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .layout {
-        flex-direction: column;
-    }
+  .layout {
+    flex-direction: column;
+  }
 }
